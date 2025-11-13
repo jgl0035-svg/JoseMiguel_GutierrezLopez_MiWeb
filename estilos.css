@@ -116,7 +116,7 @@ footer{
 
 .tabla {
     background-color: rgba(255, 255, 255, 0.9);
-    border: 3px solid rgb(255, 0, 0);
+    border: 3px solid rgb(248, 80, 80);
     border-radius: 10px;
     padding: 20px;
     margin: 25px 0px;
@@ -127,11 +127,19 @@ footer{
     text-decoration: underline;
 }
 
-th, td{
+th{
     border: 1px solid;
+    text-align: center;
+    padding: 8px;
+    background-color:rgb(248, 55, 55);
 }
 
-tr
+td{
+    border: 1px solid;
+    text-align: center;
+    padding: 8px;
+    
+}
 
 .cuadroTabla table {
     width: 100%;
