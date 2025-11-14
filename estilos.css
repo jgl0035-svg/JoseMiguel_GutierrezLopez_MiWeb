@@ -116,7 +116,7 @@ footer{
 
 .tabla {
     background-color: rgba(255, 255, 255, 0.9);
-    border: 3px solid rgb(248, 80, 80);
+    border: 3px solid rgb(255, 185, 33);
     border-radius: 10px;
     padding: 20px;
     margin: 25px 0px;
@@ -138,27 +138,11 @@ td{
     border: 1px solid;
     text-align: center;
     padding: 8px;
-    
 }
 
-.cuadroTabla table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 10px;
+tfoot{
+    background-color:  rgb(255, 185, 33);
 }
 
-.cuadroTabla th, .cuadroTabla td {
-    border: 2px solid rgb(255, 185, 33);
-    padding: 10px;
-    text-align: center;
-    vertical-align: middle;
-}
 
-.cuadroTabla thead {
-    background-color: rgb(255, 230, 180);
-}
 
-.cuadroTabla tfoot {
-    background-color: rgb(255, 200, 200);
-    font-weight: bold;
-}
