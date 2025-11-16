@@ -28,7 +28,7 @@
             <div>
                 <p>Brawl Stars es un videojuego multijugador para móviles disponible en Android y iOS, desarrollado por
                     <strong>Supercell</strong> y lanzado globalmente en 2018. La versión beta del juego fue lanzada el
-                    14 de junio de 2017 solo para Canadá, Australia y Nueva Zelanda con temáticas simples y mecánicas
+                    14 de junio de 2017 solo para <em>Canadá</em>, <em>Australia</em> y <em>Nueva Zelanda</em> con temáticas simples y mecánicas
                     difíciles,
                     mientras que la versión global se lanzó agregando un apartado visual con mayor detalles interesantes
                     y diferentes funcionalidades, que se agregaron el 12 de diciembre de 2018. Actualmente lleva 6 años
@@ -38,7 +38,7 @@
             <div>
                 <p>
                     Los objetivos principales del juego son conseguir la mayor cantidad de trofeos y brawlers
-                    (personajes de Brawl Stars), para progresar en un camino de trofeos y cuando ya tienes 12 brawlers
+                    <sup>(personajes de Brawl Stars)</sup>, para progresar en un camino de trofeos y cuando ya tienes 12 brawlers
                     llegar a maestros en el modo competitivo. Los jugadores entran a diferentes modos de juego
                     multijugador con sus personajes,
                     cada uno con habilidades únicas, que luchan en diferentes modos de juego para subirlos de rango,
@@ -206,9 +206,64 @@
                 </tfoot>
             </table>
         </section>
+        <section class="formulario">
+            <h2 class="tituloTabla">Crea tu brawler</h2>
+        <form>
+            <fieldset>
+                <legend>Introduzca su email</legend>
+                    <label for="nombre">Correo Electrónico</label>
+                    <input type="email" placeholder="correoelectrónico@gmail.com" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Datos del Brawler</legend>
+                    <label for="nombre">Nombre del Brawler:</label>
+                    <input type="text" required><br><br>
+
+                    <label for="fecha">Fecha de lanzamiento:</label>
+                    <input type="date" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Coste del Brawler</legend>
+                    <label for="nombre">Coste</label>
+                    <input type="range" min="1" max="700" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Daño del Brawler</legend>
+                    <label for="nombre">Daño</label>
+                    <input type="number" min="1" max="900" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Categoría del Brawler</legend>
+                    <label for="estado">Categoría:</label>
+                    <select id="estado" name="estado" required>
+                        <option>-- Selecciona una opción --</option>
+                        <option>Especial</option>
+                        <option>Superespecial</option>
+                        <option>Épico</option>
+                        <option>Mítico</option>
+                        <option>Legendario</option>
+                        <option>Superlegendario</option>
+                    </select>
+            </fieldset>
+
+            <fieldset>
+                <legend>Descripción del Brawler</legend>
+                    <label for="nombre">Descripción</label>
+                    <input type="text" pattern="@" required>
+            </fieldset><br>
+            <div class="botones">
+            <button type="submit">Enviar Formulario</button>
+            <button type="reset">Limpiar Formulario</button>
+            </div>
+        </form>
+        </section>
         </div>
         <aside class="aside">
-            <h2>Otros artículos</h2>
+            <h2 class="titulosArticulos">Otros artículos</h2>
             <details>
                 <summary>Pase de Batalla</summary>
                 <p>El Brawl Pass es una mecánica añadida al juego en mayo del 2020, la cual recibió su propio botón en el menú 
@@ -222,6 +277,47 @@
                     Según su calidad o tipo, pueden obtener con Gemas, Monedas, Blines, en Premios Starr, por eventos, como una recompensa 
                     del Brawl Pass, y un largo etcétera.</p>
             </details>
+            <h2 class="titulosArticulos">Categorías de Brawlers</h2>
+            <ul class="lista">
+                <li><strong>Inicial</strong></li>
+                    <ul>
+                        <li>Shelly</li>
+                    </ul>
+                <li>Especiales</li>
+                    <ul>
+                        <li>Nita</li>
+                        <li>Colt</li>
+                        <li>Bull</li>
+                    </ul>
+                <li><strong>Superespeciales</strong></li>
+                    <ul>
+                        <li>Jessie</li>
+                        <li>Dynamike</li>
+                        <li>Tick</li>
+                    </ul>
+                <li><strong>Épicos</strong></li>
+                    <ul>
+                        <li>Bo</li>
+                        <li>Emz</li>
+                        <li>Stu</li>
+                    </ul>
+                <li><strong>Míticos</strong></li>
+                    <ul>
+                        <li>Mortis</li>
+                        <li>Tara</li>
+                        <li>Genio</li>
+                    </ul>
+                <li><strong>Legendarios</strong></li>
+                    <ul>
+                        <li>Spike</li>
+                        <li>Crow</li>
+                        <li>León</li>
+                    </ul>
+                <li><strong>Ultralegendarios</strong></li>
+                    <ul>
+                        <li>Kaze</li>
+                    </ul>
+            </ul>
         </aside>
     </main>
     <footer>

@@ -162,6 +162,22 @@ td{
     padding: 8px;
 }
 
+.formulario{
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid rgb(255, 185, 33);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px 0px;
+}
+
+.botones{
+    text-align: center;
+}
+
+.lista{
+    list-style-type: square;
+}
+
 tfoot{
     background-color:  rgb(255, 185, 33);
 }
@@ -169,9 +185,9 @@ tfoot{
 
 
 
-/*Página Brawlers*/
+/*Página Brawlers y Modos de Juegos*/
 
-.pagina2{
+.pagina2y3{
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 3px;
     position: relative;
@@ -194,7 +210,7 @@ tfoot{
     box-shadow: 5px;
 }
 
-.imagenBrawlers{
+.imagen2{
     height: 250px;
     padding: 10px;
     text-align: left;
@@ -207,6 +223,6 @@ iframe{
     border: 3px solid rgb(255, 185, 33);
 }
 
-.textoBrawlers{
+.texto2{
     margin-left: 20px;
 }
