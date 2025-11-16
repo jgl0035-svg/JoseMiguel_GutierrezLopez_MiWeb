@@ -1,0 +1,167 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image:url(Imágenes/fondo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+nav {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    background-color: rgb(255, 185, 33);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    justify-content:space-between;
+    gap: 2rem;
+    align-items: center;       
+}
+
+nav a {
+    font-size: 40px;
+    background-color: rgb(255, 0, 0);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 30px;
+    border: 3px solid rgb(0, 0, 0);
+    
+}
+
+nav a:hover{
+    color: hsl(255, 185, 33);
+}
+
+.logo {
+    height: 150px;
+    padding: 10px;
+}
+
+.pagina1 {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    position: relative;
+    margin-top: 220px;
+    border: 3px solid rgb(255, 185, 33);
+    margin-left: 300px;
+    margin-right: 300px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+p{
+    text-align: justify;
+    letter-spacing: 1px;
+    text-transform: initial;
+}
+
+
+#paginas {
+    display: flex;
+    justify-content: space-around;
+}
+
+.principal{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.arti{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+[class="apartadoArticulos"]{
+    display: grid;
+    grid-template-columns: 20% 80%;
+    align-items: center;
+}
+
+.titulosArticulos{
+    text-align: center;
+    text-decoration: underline;
+}
+
+.imagenArticulos{
+    height: 110px;
+    padding: 10px;
+}
+
+.textosArticulos{
+    vertical-align: middle;
+    position: relative;
+    top: 25px;
+}
+
+
+.aside{
+    border-left: 3px solid rgb(255, 185, 33);
+    padding: 10px;
+    
+}
+
+.info{
+    padding: 10px;
+}
+
+footer{
+    background-color:  rgb(255, 185, 33);
+    position: absolute;
+    width: 100%;
+    left: 0;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.tabla {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: 3px solid rgb(255, 185, 33);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 25px 0px;
+}
+
+.tituloTabla{
+    text-align: center;
+    text-decoration: underline;
+}
+
+th{
+    border: 1px solid;
+    text-align: center;
+    padding: 8px;
+    background-color:rgb(248, 55, 55);
+}
+
+td{
+    border: 1px solid;
+    text-align: center;
+    padding: 8px;
+}
+
+tfoot{
+    background-color:  rgb(255, 185, 33);
+}
+
+
+
+
+/*Página Brawlers*/
+
+.pagina2{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    position: relative;
+    margin-top: 220px;
+    border: 3px solid rgb(255, 185, 33);
+    margin-left: 300px;
+    margin-right: 300px;
+    display: grid;
+}
