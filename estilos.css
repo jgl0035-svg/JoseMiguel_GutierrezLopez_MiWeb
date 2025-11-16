@@ -43,7 +43,8 @@ nav a:hover{
     padding: 10px;
 }
 
-main {
+
+.pagina1 {
     background-color: rgba(255, 255, 255, 0.8);
     border-radius: 3px;
     position: relative;
@@ -53,6 +54,13 @@ main {
     margin-right: 300px;
     display: grid;
     grid-template-columns: 70% 30%;
+    
+}
+
+p{
+    text-align: justify;
+    letter-spacing: 1px;
+    text-transform: initial;
 }
 
 
@@ -89,16 +97,13 @@ main {
 }
 
 .textosArticulos{
-    vertical-align: middle;
     position: relative;
     top: 25px;
 }
 
-
 .aside{
     border-left: 3px solid rgb(255, 185, 33);
     padding: 10px;
-    
 }
 
 .info{
@@ -111,6 +116,10 @@ footer{
     width: 100%;
     left: 0;
     margin-top: 8px;
+    text-align: center;
+}
+
+.textoFooter{
     text-align: center;
 }
 
@@ -145,4 +154,18 @@ tfoot{
 }
 
 
+
+
+/*Página Brawlers*/
+
+.pagina2{
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 3px;
+    position: relative;
+    margin-top: 220px;
+    border: 3px solid rgb(255, 185, 33);
+    margin-left: 300px;
+    margin-right: 300px;
+    display: grid;
+}
 
